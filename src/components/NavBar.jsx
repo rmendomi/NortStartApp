@@ -35,7 +35,7 @@ export default function NavBar({ authed, onLogout }) {
         <div className="ml-auto">
           {authed ? (
             <button
-              onClick={onLogout}               {/* 👈 usar la prop */}
+              onClick={onLogout}               
               className="text-sm px-3 py-1.5 rounded-md border border-slate-300 hover:bg-slate-50">
               Salir
             </button>
